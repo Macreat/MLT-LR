@@ -1,4 +1,4 @@
-# MLT-LR
+# MLT_LR
 
 ## Learning route of my Machine Learning Theory course and research (UNAL 2025)
 
@@ -44,7 +44,7 @@ To keep the work organized, this repo uses a **branching model**:
 
 ## Repository Structure
 
-MLT-LR/  
+MLT_LR/  
 ├── .gitignore # Git ignored files (at repo root)  
 ├── README.md # Main repository description (at repo root)  
 │  
@@ -69,7 +69,7 @@ MLT-LR/
 │  
 │ └── docs/ # Documentation, reports, and additional deliverables  
 │  
-└── requirements.txt # Dependencies for reproducibility (optional)
+└── requirements.txt # Dependencies for reproducibility (on a future after some model implementation )
 
 ## how to RUN nbs
 
@@ -119,7 +119,7 @@ All inside PYDevEnv/:
 
 - **Books & PDFs** → [PYDevEnv/content/ss'sBooks/](content/ss'sBooks/)
 - **Class notes & theory** → [PYDevEnv/content/](content/lectures)
-- **Development notebooks** → [PYDevEnv/DevContent/](DevContent/devNbs)
+- **Development notebooks** → [PYDevEnv/devContent/](DevContent/devNbs)
 
 ---
 
@@ -127,7 +127,7 @@ All inside PYDevEnv/:
 
 - [x] Create README base
 - [x] Add repo structure
-- [ ] Upload repo from course
+- [x] Upload repo from course
 - [ ] Document first experiments and tasks (linear regression, Bayesian optimization)
 - [ ] Deliver work
 - [ ] Project
