@@ -1,0 +1,3 @@
+[submodule "PYDevEnv/cloneRepo/AprendizajeMaquina"]
+	path = PYDevEnv/cloneRepo/AprendizajeMaquina
+	url = git@github.com:amalvarezme/AprendizajeMaquina.git
