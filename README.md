@@ -1,6 +1,6 @@
-# MLT-LR
+# MLT_LR
 
-## Learning route of my Machine Learning Theory course and research (UNAL 2025)
+## Learning route of my Machine Learning Theory course at UNAL 2025
 
 _Learning path in Machine Learning Theory and Practical Development (UNAL 2025)_
 
@@ -39,12 +39,13 @@ To keep the work organized, this repo uses a **branching model**:
 - **`dWork`**  
   Scratchpad branch. Used for **daily experiments, tests, or quick prototypes**.  
   Not guaranteed to be stable; changes here can be force-pushed or rebased.
+  This branch will be used only in case.
 
 ---
 
 ## Repository Structure
 
-MLT-LR/  
+MLT_LR/  
 ├── .gitignore # Git ignored files (at repo root)  
 ├── README.md # Main repository description (at repo root)  
 │  
@@ -60,16 +61,13 @@ MLT-LR/
 │ ├── content/ # Study materials and resources on ML theory  
 │ │ ├── books/ # Books and references  
 │ │ └── README.md  
-│  
-│ ├── DevContent/ # Development notebooks, code, and model experiments  
-│ │ └── README.md  
+│
 │  
 │ ├── work/ # Includes organized submissions, project reports, and deliverables  
 │ │ └── README.md  
+│
 │  
-│ └── docs/ # Documentation, reports, and additional deliverables  
-│  
-└── requirements.txt # Dependencies for reproducibility (optional)
+└── requirements.txt # Dependencies for reproducibility (on a future after some model implementation )
 
 ## how to RUN nbs
 
@@ -117,9 +115,9 @@ or open the .ipynb files directly in VSCode with the Python extension, also you 
 
 All inside PYDevEnv/:
 
-- **Books & PDFs** → [PYDevEnv/content/ss'sBooks/](content/ss'sBooks/)
-- **Class notes & theory** → [PYDevEnv/content/](content/lectures)
-- **Development notebooks** → [PYDevEnv/DevContent/](DevContent/devNbs)
+- **Books & PDFs** → [content/ss'sBooks/](./content/ss'sBooks/)
+- **Class notes & theory** → [content/lectures/](content/lectures/)
+- **work class** → [work/](work/)
 
 ---
 
@@ -127,7 +125,7 @@ All inside PYDevEnv/:
 
 - [x] Create README base
 - [x] Add repo structure
-- [ ] Upload repo from course
+- [x] Upload repo from course
 - [ ] Document first experiments and tasks (linear regression, Bayesian optimization)
 - [ ] Deliver work
 - [ ] Project
@@ -135,12 +133,15 @@ All inside PYDevEnv/:
 ## Author
 
 **Mateo Almeida (Macreat)**
+
 Course: Machine Learning Theory @ UNAL 2025
+
 GitHub: [@Macreat](https://github.com/Macreat)
 
 ## License
 
-License: **X**
+License: **no**
+
 Usage: Academic and learning purposes
 
 ```
