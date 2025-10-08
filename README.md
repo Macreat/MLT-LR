@@ -115,9 +115,9 @@ or open the .ipynb files directly in VSCode with the Python extension, also you 
 
 All inside PYDevEnv/:
 
-- **Books & PDFs** → [content/ss'sBooks/](./content/ss'sBooks/)
-- **Class notes & theory** → [content/lectures/](content/lectures/)
-- **work class** → [work/](work/)
+- **Books & class PDFs** → [content/ss'sBooks/](./PYDevEnv/content/)
+- **Class notes & theory** → [content/lectures/](./PYDevEnv/content/lectures/)
+- **work class** → [work/](./PYDevEnv/work/)
 
 ---
 
