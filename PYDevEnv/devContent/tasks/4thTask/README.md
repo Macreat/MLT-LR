@@ -20,6 +20,13 @@ Each experiment includes a **train/test split**, evaluation via \( R^2 \), MSE, 
 
 ### Results Summary
 
+- Hyperparameter Optimization (HPO) via Bayesian Search effectively tuned α (regularization) and γ (kernel width) for the RBF Kernel Ridge model, yielding balanced bias–variance tradeoffs in both synthetic and real datasets.
+- On the sinc dataset, the RBF kernel achieved a smooth nonlinear fit that captured the underlying trend while filtering out noise, confirming the effectiveness of kernel-based regression for nonlinearly separable data.
+- In the California Housing dataset, the RBF Kernel Ridge produced slightly better generalization than the polynomial and linear models, maintaining stable MSE and R2
+  across train/test splits.
+- The Polynomial Regression baseline showed higher variance and overfitting tendencies, especially under noisy or complex feature relationships.
+- this notebook demonstrates that kernel-based models, when coupled with principled HPO, outperform fixed or manually tuned baselines — achieving smoother predictions, better generalization, and consistent performance across both synthetic and real-world regression problems.
+
 ---
 
 ## Environment
