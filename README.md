@@ -126,7 +126,8 @@ All inside PYDevEnv/:
 - [x] Create README base
 - [x] Add repo structure
 - [x] Upload repo from course
-- [ ] Document first experiments and tasks (linear regression, Bayesian optimization)
+- [x] Document first experiments and tasks (linear regression, Bayesian optimization)
+- [ ] First partial test
 - [ ] Deliver work
 - [ ] Project
 
