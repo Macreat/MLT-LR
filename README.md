@@ -36,11 +36,6 @@ To keep the work organized, this repo uses a **branching model**:
   Development branch. Contains **ongoing work** and integrates features before merging into `main`.  
   All new features or experiments should be branched off `dev`.
 
-- **`dWork`**  
-  Scratchpad branch. Used for **daily experiments, tests, or quick prototypes**.  
-  Not guaranteed to be stable; changes here can be force-pushed or rebased.
-  This branch will be used only in case.
-
 ---
 
 ## Repository Structure
@@ -127,7 +122,7 @@ All inside PYDevEnv/:
 - [x] Add repo structure
 - [x] Upload repo from course
 - [x] Document first experiments and tasks (linear regression, Bayesian optimization)
-- [ ] First partial test
+- [ ] First partial test (currently working on)
 - [ ] Deliver work
 - [ ] Project
 
@@ -144,7 +139,3 @@ GitHub: [@Macreat](https://github.com/Macreat)
 License: **no**
 
 Usage: Academic and learning purposes
-
-```
-
-```
