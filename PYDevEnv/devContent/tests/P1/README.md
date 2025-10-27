@@ -23,7 +23,7 @@ El trabajo se estructura en torno a la teoría vista en clase (Bishop, Prince, M
 
 **Requisitos base**
 
-- Python ≥ 3.11
+- Python ≥ 3.9
 - pip install -r requirements.txt
 
 **Principales librerías**
@@ -40,7 +40,7 @@ El trabajo se estructura en torno a la teoría vista en clase (Bishop, Prince, M
 
 ### Etapas principales
 
-- [ ] **1️ Revisión teórica**
+- [x] **1️ Revisión teórica**
 
   - Entendiendo el desarrollo del problema, planeando el flujo de trabajo, comprendiendo los fundamentos de regresión lineal, regularización (L1/L2), descenso de gradiente, kernel, ensambles y modelos bayesianos.
   - Estructurando el cuadro comparativo sobre los diferentes modelos y regresores, de acuerdo a sus hiperparámetros, métodos y estructura matemática.
@@ -49,20 +49,20 @@ El trabajo se estructura en torno a la teoría vista en clase (Bishop, Prince, M
     - Kaggle NFL Big Data Bowl 2026.
     - RAPIDS AI Documentation.
 
-- [ ] **2 Exploración del dataset de la NFL (EDA)**
+- [x] **2 Exploración del dataset de la NFL (EDA)**
 
   - Carga y descripción del conjunto _NFL Big Data Bowl 2026_.
   - Limpieza, codificación de variables, detección de valores faltantes.
   - Visualización de distribuciones, correlaciones y patrones.
 
-- [ ] **2.1 Preprocesamiento**
+- [x] **2.1 Preprocesamiento**
 
   - Escalado y normalización (`StandardScaler` / `cuml.preprocessing.StandardScaler`).
   - Codificación de variables categóricas.
   - División del dataset (60 % entrenamiento / 20 % validación / 20 % prueba).
   - Conversión a `cudf` para ejecución en GPU.
 
-- [ ] **2.2 Entrenamiento de modelos**
+- [x] **2.2 Entrenamiento de modelos**
 
   - **Lineales:** LinearRegression, Ridge, Lasso, ElasticNet, BayesianRidge.
   - **Kernel y gradiente:** KernelRidge, SVR, SGDRegressor.
@@ -70,20 +70,20 @@ El trabajo se estructura en torno a la teoría vista en clase (Bishop, Prince, M
   - Medición de tiempos, cálculo de métricas (MAE, MSE, RMSE, R², MAPE).
   - Comparación CPU vs GPU.
 
-- [ ] **2.3 Optimización bayesiana (HPO)**
+- [x] **2.3 Optimización bayesiana (HPO)**
 
   - Definición de espacios de búsqueda (`n_estimators`, `max_depth`, `alpha`, `gamma`, etc.).
   - Ejecución con Optuna (`study.optimize`) — mínimo 20 trials.
   - Guardado del estudio en `hpo_study.db` y visualización de importancia de parámetros.
 
-- [ ] **2.4 Comparativa y resultados**
+- [x] **2.4 Comparativa y resultados**
 
   - Generación de `metrics_comparison.csv`.
   - Visualización con gráficos de barras (tiempo / error).
   - Identificación del mejor modelo y análisis teórico del resultado.
 
-- [ ] **3 Conclusiones**
-  - Evaluación global del desempeño CPU vs GPU.
+- [x] **3 Conclusiones**
+  - Evaluación global del desempeño en CPU y posterior implementación en GPU.
   - Discusión sobre precisión, velocidad y generalización.
   - Propuestas de mejora y extensiones (deep learning, más datos, tuning avanzado).
 
