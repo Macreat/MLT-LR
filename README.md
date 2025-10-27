@@ -58,7 +58,7 @@ MLT_LR/
 │ │ └── README.md  
 │
 │  
-│ ├── work/ # Includes organized submissions, project reports, and deliverables  
+│ ├── work/ # Includes organized submissions, project ,reports, and deliverables  
 │ │ └── README.md  
 │
 │  
@@ -122,8 +122,10 @@ All inside PYDevEnv/:
 - [x] Add repo structure
 - [x] Upload repo from course
 - [x] Document first experiments and tasks (linear regression, Bayesian optimization)
-- [ ] First partial test (currently working on)
-- [ ] Deliver work
+- [x] First partial test (currently working on)
+- [ ] Deliver work as:
+  - assigned tasks
+  - mathematical/model demonstrations
 - [ ] Project
 
 ## Author
